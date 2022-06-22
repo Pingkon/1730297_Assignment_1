@@ -14,7 +14,6 @@
 }
 
 * {
-  font-family: "proxima_nova_rgregular";
   margin: 0;
 }
 
@@ -22,7 +21,8 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(/images/Hero_img5.jpg);
   background-size: cover;
-  height: 80vh;
+  height: 70vh;
+  font-family: "proxima_nova_rgregular";
 }
 
 nav-bar {
@@ -44,7 +44,6 @@ nav-bar {
 a {
   text-decoration: none;
   color: white;
-
 }
 
 menu a {
@@ -63,10 +62,10 @@ menu a {
 
 .hero-content {
   text-align: center;
-  padding-top: 35vh;
+  padding-top: 30vh;
 }
 
-.heading {
+.hero-heading {
   color: white;
   font-size: 70px;
   letter-spacing: 2px;
@@ -83,4 +82,39 @@ menu a {
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 2px;
+}
+
+.main-content {
+  margin: 0 15vw;
+  padding: 80px 0;
+  font-family: "adobe-garamond-pro";
+  text-align: center;
+}
+
+.content-heading {
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  color: #1a1a1ae6;
+}
+
+.content-para {
+  font-size: 18px;
+  padding: 20px 0;
+  margin: 0 15vw;
+  color: #1a1a1ab3;
+  font-weight: 400;
+}
+
+.product-card {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.product-description {
+  width: 300px;
+  padding-left: 70px;
 }
