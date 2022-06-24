@@ -144,10 +144,18 @@ menu a {
   line-height: 30px;
 }
 
-.subscribe {
+.newsletter {
   text-align: center;
   background-color: rgb(240, 239, 239);
   padding-bottom: 80px;
+}
+
+.subscribe {
+  font-family: proxima_nova_rgregular;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 80px 0 10px 0;
+  letter-spacing: 3px;
 }
 
 #sign-up {
