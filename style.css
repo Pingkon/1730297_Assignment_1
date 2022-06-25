@@ -179,3 +179,11 @@ menu a {
   font-family: "proxima_nova_rgregular";
   letter-spacing: 2px;
 }
+
+.email-input {
+  height: 45px;
+  width: 280px;
+  font-family: adobe-garamond-pro;
+  font-size: 16px;
+  padding-left: 10px;
+}
